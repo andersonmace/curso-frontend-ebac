@@ -57,14 +57,15 @@ Fluxo do Git
 ___
 ### Branches
 
-**git branch** São as ramificações do código / versões paralelas
+**`git branch`** São as ramificações do código / versões paralelas.
 
-  - main / master (branch principal, vai para produção, quando o projeto é publicado)
-  - develop (uma branch criada para desenvolvimento do código antes de ser enviada para branch principal)
+  - main / master (branch principal, vai para produção, quando o projeto é publicado).
+  - develop (uma branch criada para desenvolvimento do código antes de ser enviada para branch principal).
     - DOD (Definition of Done) são critérios de aceite para o projeto ser publicado na main branch.
-    - Exemplo: **git checkout -b dev** (faz o checkout da branch atual e cria uma nova com nome "dev" e faz uma cópia dos arquivos nela)
-    - Após comitar e finalizar todas alterações na brach atual, pode-se fazer o **git fetch --all** para verificar se há mudanças no projeto remoto
-    - **git checkout main** muda da branch atual para branch main.
+    - Exemplo: **`git checkout -b dev`** (faz o checkout da branch atual e cria uma nova com nome "dev" e faz uma cópia dos arquivos nela).
+    - Após comitar e finalizar todas alterações na brach atual, pode-se fazer o **`git fetch --all`** para verificar se há mudanças no projeto remoto.
+    - **`git push --set-upstream origin dev`**: serve para dar push em uma branch nova, no caso a branch 'dev'.
+    - **`git checkout main`**: muda da branch atual para branch main.
 
   - versionamento 0.1.x (versão beta, em desenvolvimento / alterações finais feitas nessa versão / correção de bugs)
   - versionamento 0.2.11
@@ -74,4 +75,4 @@ ___
 ### Merge
 
 **git merge main**
-Mescla de branches (Após finalizar e publicar os arquivos na branch 'dev', é hora de mesclar para branch principal 'main'.)
+Mescla de branches (Após finalizar e publicar os arquivos na branch 'dev', é hora de mesclar para branch principal 'main').
