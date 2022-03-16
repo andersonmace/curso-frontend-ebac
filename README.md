@@ -31,28 +31,23 @@ ___
 ___
 ### Clonar projeto e outros comandos
 
-  - git clone https://github.com/andersonmace/curso-frontend-ebac.git
-  - git status
-  - git add * (pega todos os arquivos)
-  - git config --global user.name "Anderson Macedo"
-  - git config --global user.email andersonmac@gmail.com
-  - git commit -m "Texto da alteração"
-  - git push (Enviar arquivos)
-  - git pull (Receber arquivos)
-  - git branch
+  - `git clone https://github.com/andersonmace/curso-frontend-ebac.git`
+  - `git status`
+  - `git add *` (pega todos os arquivos)
+  - `git config --global user.name "Anderson Macedo"`
+  - `git config --global user.email andersonmac@gmail.com`
+  - `git commit -m "Texto da alteração"`
+  - `git push` (Enviar arquivos)
+  - `git pull` (Receber arquivos)
+  - `git branch`
 
 ___
 ### Commits
 
-**git commit -m "Texto da alteracao"**
+**`git commit -m "Texto da alteracao"`**
 
 Informação de alterção
   - após testado todo o seu código
-
-___
-### GitFlow
-
-Fluxo do Git
 
 ___
 ### Branches
@@ -74,5 +69,11 @@ ___
 ___
 ### Merge
 
-**git merge main**
+**`git merge main`**
 Mescla de branches (Após finalizar e publicar os arquivos na branch 'dev', é hora de mesclar para branch principal 'main').
+
+___
+### GitFlow
+
+**`git flow init`**
+Fluxo do Git ()
