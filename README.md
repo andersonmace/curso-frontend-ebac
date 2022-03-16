@@ -29,6 +29,7 @@ https://git-scm.com/
   -git config --global user.name "Anderson Macedo"
   -git config --global user.email andersonmac@gmail.com
   -git commit -m "Texto da alteração"
+  -git push
 
 ### Commits
 Informação de alterção
