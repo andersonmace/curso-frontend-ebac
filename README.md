@@ -24,13 +24,14 @@ https://git-scm.com/
 ### Criar conta no GitHub
 
 ### Clonar projeto
-  -git clone https://github.com/andersonmace/curso-frontend-ebac.git
-  -git status
-  -git add * (pega todos os arquivos)
-  -git config --global user.name "Anderson Macedo"
-  -git config --global user.email andersonmac@gmail.com
-  -git commit -m "Texto da alteração"
-  -git push
+  - git clone https://github.com/andersonmace/curso-frontend-ebac.git
+  - git status
+  - git add * (pega todos os arquivos)
+  - git config --global user.name "Anderson Macedo"
+  - git config --global user.email andersonmac@gmail.com
+  - git commit -m "Texto da alteração"
+  - git push (Enviar arquivos)
+  - git pull (Receber arquivos)
 
 ### Commits
 Informação de alterção
