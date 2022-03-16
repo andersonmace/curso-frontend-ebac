@@ -70,10 +70,33 @@ ___
 ### Merge
 
 **`git merge main`**
-Mescla de branches (Após finalizar e publicar os arquivos na branch 'dev', é hora de mesclar para branch principal 'main').
+ - Mescla de branches (Após finalizar e publicar os arquivos na branch 'dev', é hora de mesclar para branch principal 'main').
+ - Você pode precisar resolver conflitos manualmente
+
+___
+### Pull Requests
+
+**`git pull`**
+ - Mescla de branches no repositório
+ - Permite o code review
+ - O repositório resolve os conflitos automaticamente
 
 ___
 ### GitFlow
 
 **`git flow init`**
-Fluxo do Git ()
+ - Fluxo do Git ()
+
+**`git flow feature start nome-da-feature`**
+ - Inicia uma nova feature branch feature/nome-da-feature
+
+**`git flow feature finish nome-da-feature`**
+ - Finaliza a branch feature/nome-da-feature
+
+___
+### Git Ignore
+
+**`touch .gitignore`**
+ - Adiciona um arquivo que ignora outros arquivos a irem pra branch
+ - Exemplo: "*.zip" - evita subir qualquer arquivo .zip para a branch
+ - Lembrar de colocar **`git add .gitignore`**
