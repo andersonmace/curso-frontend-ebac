@@ -134,5 +134,6 @@ ___
 - Gerar leads qualificados, com real interesse nos serviços oferecidos.
 - Criar conteúdo para post (blog), e-mail marketing, landing page (call-to-action: e-mail*).
 - Criar fomrmulários para captação de e-mails.
-- Post para redes sociais.
-- Incluir hospedagem.
+- Post para redes sociais: texto + foto + url curta.
+- Incluir hospedagem (servidor web).
+- Git - histórico de evolução (commits detalhados).
