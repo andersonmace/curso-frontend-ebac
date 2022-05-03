@@ -119,7 +119,7 @@ ___
 
 ## Metodologia
 - Explorar conceitos e técnicas
-- Evolução continua: dividir o projeto em peuqenas partes, testes, ciclos incrementais, revisão...
+- Evolução continua: dividir o projeto em pequenas partes, testes, ciclos incrementais, revisão...
 - AIDA
 
 \\\\      Atenção      ////
