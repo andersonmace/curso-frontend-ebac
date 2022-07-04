@@ -1,6 +1,7 @@
 :root {
   --color-main: #254159;
   --color-main-light: #385874;
+  --color-main-slight: #b2cfe9;
   --color-grey: #333333;
   --color-grey-light: #efefef;
   --color-white: #fff;
@@ -103,6 +104,7 @@ section nav {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   /* background-color: aquamarine; */
+  position: relative;
 }
 
 nav ul {
@@ -128,6 +130,11 @@ nav a {
 
 nav a:hover {
   color: var(--color-main-light);
+}
+
+.menu {
+    position: absolute;
+    width: 100%;
 }
 
 section article {
@@ -157,9 +164,20 @@ footer > small {
 }
 
 /* Cognito classes */
+.cognito-section {
+    background-color: var(--color-main-slight);
+}
 
 .cognito {
     margin-top: 5rem;
+    max-width:800px;
+    background-color: var(--color-main-slight);
+    padding: 5rem;
+    margin: 0 auto;
+}
+
+.cog-form__container {
+    background-color: var(--color-main-slight) !important;
 }
 
 .cog-abuse {
@@ -171,6 +189,10 @@ footer > small {
 }
 
 /* CONFIGS */
+
+.bg-main--slight {
+    background-color: var(--color-main-slight);
+}
 
 /* TEXT-ALIGN */
 .text-start {
@@ -211,6 +233,9 @@ footer > small {
 }
 
 /* PADDING */
+.p-0 {
+    padding: 0;
+}
 .pe-1 {
   padding-right: calc(1rem * 0.25);
 }
@@ -376,6 +401,10 @@ footer > small {
   margin-bottom: calc(1rem * 3);
 }
 
+.mx-auto {
+    margin: 0 auto;
+}
+
 /* Breakpoints */
 @media only screen and (max-width: 900px) {
     nav li {
@@ -389,6 +418,11 @@ footer > small {
     }
     .post {
         margin-left: auto;
+        width: 100%;
+    }
+
+    .menu {
+        position: relative;
         width: 100%;
     }
 }
