@@ -140,3 +140,6 @@ ___
 
 ## Formulário
 <http://www.cognitoforms.com>
+
+## SSH
+Para gerar o código, no terminal digite: ssh-keygen
