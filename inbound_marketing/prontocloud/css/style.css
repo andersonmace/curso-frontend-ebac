@@ -156,6 +156,20 @@ footer > small {
   font-size: 1rem;
 }
 
+/* Cognito classes */
+
+.cognito {
+    margin-top: 5rem;
+}
+
+.cog-abuse {
+    visibility: hidden !important;
+}
+
+.cog-branding, .cog-branding--minimal {
+    display: none !important;
+}
+
 /* CONFIGS */
 
 /* TEXT-ALIGN */
