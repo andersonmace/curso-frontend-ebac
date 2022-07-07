@@ -143,3 +143,8 @@ ___
 
 ## SSH
 Para gerar o código, no terminal digite: ssh-keygen
+
+### URL
+Uniform Resource Location
+
+- URL amigável: humanos e mecanismos de busca.
