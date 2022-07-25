@@ -53,7 +53,7 @@ body {
 header {
   background-color: var(--color-white-alpha);
   padding: 2rem 3rem 7rem 2.5rem;
-  border-bottom: 1px solid var(--color-main);
+  /* border-bottom: 1px solid var(--color-main); */
   /* height: 16vh; */
   display: flex;
   align-items: center;
@@ -180,6 +180,10 @@ nav a.disabled {
   color: grey;
 }
 
+.border-img {
+  border-radius: 12px;
+}
+
 .menu {
   position: absolute;
   width: 100%;
@@ -196,9 +200,9 @@ nav a.disabled {
   justify-content: center;
 }
 
-.nav-menu {
+/* .nav-menu {
   
-}
+} */
 
 .nav-menu--list {
   display: flex;
@@ -347,7 +351,7 @@ html .cog-cognito--styled .cog-button--primary:hover, :root:root:root:root:root 
   /* float: left; */
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1440px) {
   .saiba-mais__content {
     flex-flow: column;
   }
@@ -692,6 +696,11 @@ html .cog-col--12,
     width: 100%;
     text-align: center;
   }
+
+  section article {
+    width: 100%;
+  }
+
   .post {
     margin-left: auto;
     width: 100%;
@@ -701,6 +710,7 @@ html .cog-col--12,
     position: relative;
     width: 100%;
   }
+  
 }
 
 @media only screen and (max-width: 768px) {
